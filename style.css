@@ -1,0 +1,38 @@
+body
+{
+    margin: 0;
+    padding: 8px;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.title
+{
+    flex-wrap: wrap;
+    flex: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a
+{
+    text-decoration: none;
+    display: block;
+    background-color: blueviolet;
+    border: 2px solid violet;
+    border-radius: 12px;
+    padding: 8px 24px 8px 24px;
+    color: violet;
+    font-weight: 600;
+}
+
+.footer
+{
+    display: flex;
+    margin-top: auto;
+    justify-content: space-between;
+}
